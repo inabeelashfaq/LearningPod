@@ -11,6 +11,12 @@
 		628282C22A28E3740001E2A5 /* LearningPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 628282BF2A28E3740001E2A5 /* LearningPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		628282C92A28E3930001E2A5 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 628282C82A28E3930001E2A5 /* Storyboard.storyboard */; };
 		628282CB2A28E3C20001E2A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628282CA2A28E3C10001E2A5 /* ViewController.swift */; };
+		62F2A9BA2A290A0D00FEDB81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F2A9B92A290A0D00FEDB81 /* AppDelegate.swift */; };
+		62F2A9BE2A290A0D00FEDB81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F2A9BD2A290A0D00FEDB81 /* ViewController.swift */; };
+		62F2A9C12A290A0D00FEDB81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F2A9BF2A290A0D00FEDB81 /* Main.storyboard */; };
+		62F2A9C32A290A1100FEDB81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F2A9C22A290A1100FEDB81 /* Assets.xcassets */; };
+		62F2A9C62A290A1100FEDB81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F2A9C42A290A1100FEDB81 /* LaunchScreen.storyboard */; };
+		62F2A9CC2A290A9C00FEDB81 /* PodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F2A9CB2A290A9C00FEDB81 /* PodManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,10 +25,25 @@
 		628282C02A28E3740001E2A5 /* LearningPod.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LearningPod.docc; sourceTree = "<group>"; };
 		628282C82A28E3930001E2A5 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		628282CA2A28E3C10001E2A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62F2A9B72A290A0D00FEDB81 /* LearningPodExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningPodExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F2A9B92A290A0D00FEDB81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62F2A9BD2A290A0D00FEDB81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62F2A9C02A290A0D00FEDB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62F2A9C22A290A1100FEDB81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62F2A9C52A290A1100FEDB81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62F2A9C72A290A1100FEDB81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F2A9CB2A290A9C00FEDB81 /* PodManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		628282B92A28E3740001E2A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F2A9B42A290A0D00FEDB81 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				628282BE2A28E3740001E2A5 /* LearningPod */,
+				62F2A9B82A290A0D00FEDB81 /* LearningPodExamples */,
 				628282BD2A28E3740001E2A5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				628282BC2A28E3740001E2A5 /* LearningPod.framework */,
+				62F2A9B72A290A0D00FEDB81 /* LearningPodExamples.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +78,22 @@
 				628282C02A28E3740001E2A5 /* LearningPod.docc */,
 				628282C82A28E3930001E2A5 /* Storyboard.storyboard */,
 				628282CA2A28E3C10001E2A5 /* ViewController.swift */,
+				62F2A9CB2A290A9C00FEDB81 /* PodManager.swift */,
 			);
 			path = LearningPod;
+			sourceTree = "<group>";
+		};
+		62F2A9B82A290A0D00FEDB81 /* LearningPodExamples */ = {
+			isa = PBXGroup;
+			children = (
+				62F2A9B92A290A0D00FEDB81 /* AppDelegate.swift */,
+				62F2A9BD2A290A0D00FEDB81 /* ViewController.swift */,
+				62F2A9BF2A290A0D00FEDB81 /* Main.storyboard */,
+				62F2A9C22A290A1100FEDB81 /* Assets.xcassets */,
+				62F2A9C42A290A1100FEDB81 /* LaunchScreen.storyboard */,
+				62F2A9C72A290A1100FEDB81 /* Info.plist */,
+			);
+			path = LearningPodExamples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +128,23 @@
 			productReference = 628282BC2A28E3740001E2A5 /* LearningPod.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		62F2A9B62A290A0D00FEDB81 /* LearningPodExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F2A9CA2A290A1100FEDB81 /* Build configuration list for PBXNativeTarget "LearningPodExamples" */;
+			buildPhases = (
+				62F2A9B32A290A0D00FEDB81 /* Sources */,
+				62F2A9B42A290A0D00FEDB81 /* Frameworks */,
+				62F2A9B52A290A0D00FEDB81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearningPodExamples;
+			productName = LearningPodExamples;
+			productReference = 62F2A9B72A290A0D00FEDB81 /* LearningPodExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,9 +152,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					628282BB2A28E3740001E2A5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					62F2A9B62A290A0D00FEDB81 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
@@ -119,6 +177,7 @@
 			projectRoot = "";
 			targets = (
 				628282BB2A28E3740001E2A5 /* LearningPod */,
+				62F2A9B62A290A0D00FEDB81 /* LearningPodExamples */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +191,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62F2A9B52A290A0D00FEDB81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F2A9C62A290A1100FEDB81 /* LaunchScreen.storyboard in Resources */,
+				62F2A9C32A290A1100FEDB81 /* Assets.xcassets in Resources */,
+				62F2A9C12A290A0D00FEDB81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -140,11 +209,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				628282CB2A28E3C20001E2A5 /* ViewController.swift in Sources */,
+				62F2A9CC2A290A9C00FEDB81 /* PodManager.swift in Sources */,
 				628282C12A28E3740001E2A5 /* LearningPod.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62F2A9B32A290A0D00FEDB81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F2A9BE2A290A0D00FEDB81 /* ViewController.swift in Sources */,
+				62F2A9BA2A290A0D00FEDB81 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		62F2A9BF2A290A0D00FEDB81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F2A9C02A290A0D00FEDB81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62F2A9C42A290A1100FEDB81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F2A9C52A290A1100FEDB81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		628282C32A28E3740001E2A5 /* Debug */ = {
@@ -337,6 +435,62 @@
 			};
 			name = Release;
 		};
+		62F2A9C82A290A1100FEDB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6Z325W22A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearningPodExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepfusion.LearningPodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62F2A9C92A290A1100FEDB81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T6Z325W22A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LearningPodExamples/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepfusion.LearningPodExamples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,6 +508,15 @@
 			buildConfigurations = (
 				628282C62A28E3740001E2A5 /* Debug */,
 				628282C72A28E3740001E2A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F2A9CA2A290A1100FEDB81 /* Build configuration list for PBXNativeTarget "LearningPodExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F2A9C82A290A1100FEDB81 /* Debug */,
+				62F2A9C92A290A1100FEDB81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
