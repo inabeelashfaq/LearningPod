@@ -30,8 +30,8 @@
 		8ED03312AC2F2103A8A1A946ED469E49 /* Pods-LearningPod-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LearningPod-acknowledgements.markdown"; sourceTree = "<group>"; };
 		90BFF346630AA3BBFBE9BF9F49DE8218 /* Pods-LearningPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningPod.release.xcconfig"; sourceTree = "<group>"; };
 		9288DAAB81F19FAE6844567CDC2346EA /* Pods-LearningPodExamples-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LearningPodExamples-acknowledgements.plist"; sourceTree = "<group>"; };
-		94E2C9714140FE4AD2CBD07BF421AE43 /* Pods-LearningPodExamples */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LearningPodExamples"; path = Pods_LearningPodExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E2C9714140FE4AD2CBD07BF421AE43 /* Pods_LearningPodExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningPodExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4253835CD3E92411E23BB2B0D3DECAF /* Pods-LearningPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningPod.debug.xcconfig"; sourceTree = "<group>"; };
 		A982CB649132B1E71AB279F438069197 /* Pods-LearningPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LearningPod.modulemap"; sourceTree = "<group>"; };
 		CA0C12E3C5DED7CFB8692B5D490BBCCC /* Pods-LearningPodExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LearningPodExamples.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				11F5A3032D1F4E52D939E64D05F4B567 /* Pods-LearningPod */,
-				94E2C9714140FE4AD2CBD07BF421AE43 /* Pods-LearningPodExamples */,
+				94E2C9714140FE4AD2CBD07BF421AE43 /* Pods_LearningPodExamples.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			);
 			name = "Pods-LearningPodExamples";
 			productName = Pods_LearningPodExamples;
-			productReference = 94E2C9714140FE4AD2CBD07BF421AE43 /* Pods-LearningPodExamples */;
+			productReference = 94E2C9714140FE4AD2CBD07BF421AE43 /* Pods_LearningPodExamples.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		64F0AFBDC46166CC7352EAC7E864863D /* Pods-LearningPod */ = {
@@ -335,7 +335,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LearningPodExamples/Pods-LearningPodExamples-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,7 +410,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-LearningPodExamples/Pods-LearningPodExamples-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
